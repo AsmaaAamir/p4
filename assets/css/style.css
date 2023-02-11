@@ -37,6 +37,21 @@
     margin: 10px;
     text-align: center;
 }
+h1{
+    font-size: 60px;
+    color: rgb(116, 5, 220);
+}
+hr{
+    border: 2px solid black;
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(58, 208, 161);
+}
+h2:hover{
+    color: rgb(211, 141, 37);
+}
 .new{
     width: 100%;
     padding-top: 15px;
@@ -46,9 +61,6 @@
     align-items: center;
     grid-template-columns: 5fr 5fr 5fr;
     column-gap: 5px;
-}
-.new h1{
-    font-size: 60px;
 }
 .new p{
     color:crimson;
