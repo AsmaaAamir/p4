@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header{
+    padding: 20px;
+}
+.nav-bar ul {
+    float: right;
+    list-style: none;
+    padding: 0;
+   
+}
+.nav-bar ul li {
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+}
