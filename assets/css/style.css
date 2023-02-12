@@ -2,8 +2,8 @@
 
 *{
     padding: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin:0;
+    box-sizing: border-box;
     font-family: Itim, sans-serif;
 }
 .nav-bar ul {
@@ -42,32 +42,79 @@ h1{
     color: rgb(116, 5, 220);
 }
 hr{
-    border: 2px solid black;
+    border: 2px solid rgb(239, 15, 15);
 }
 h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     color: rgb(58, 208, 161);
 }
 h2:hover{
     color: rgb(211, 141, 37);
 }
-.new{
-    width: 100%;
-    padding-top: 15px;
-    padding-left: 30px;
-    color: blueviolet;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 5fr 5fr 5fr;
-    column-gap: 5px;
-}
 .new p{
-    color:crimson;
-    font-size: 25px;
-    width:100%;
+    float: left;
+    width:50%;
+    font-size: 30px;
 }
 .new img{
-    width: 100%;
-    border-radius: 20px;
+    float: right;
+    width: 40%;
+    height: 600px;
+    border-radius: 20%;
+}
+.p-recipes{
+    text-align: center;
+}
+.p-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap:1.5rem;
+    align-items: center;
+    }
+
+
+/*---------Footer----------*/
+.footer{
+    padding: 40px 0;
+}
+.footer h3{
+    text-align: center;
+    color: darkolivegreen;
+}
+.social{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.social a{
+    color: darkcyan;
+    font-size: 25px;
+    margin: 0 25px ;
+}
+.social ul li {
+    display: inline-block;
+    text-align: center;
+}
+.short-links ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 25px;
+    line-height: 2px;
+    text-align: center;
+}
+.short-links a {
+    color: rgb(14, 207, 78);
+    text-decoration: none;
+}
+.short-links ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: aquamarine;
 }
