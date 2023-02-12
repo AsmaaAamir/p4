@@ -90,6 +90,9 @@ header{
     margin-bottom: 8px;
     border-radius: 15px;
 }
+.label{
+    font-size: 40px;
+} 
 .contact-img img {
     max-width: 100%;
     width: 720px;
@@ -97,8 +100,72 @@ header{
     border-radius: 15px;
 }
 
+/*-----------------Sign Up Page------------------*/
 
+.sign{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
+.sign-container{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(21, 209, 178, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -1px 2px 2px whitesmoke;
+}
+.sign-container h1 {
+    font-size: 70px;
+    color:rgb(28, 28, 223);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(236, 238, 240);
+    padding-bottom: 8px;
+    border-bottom: 2px solid purple;
+}
+.user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap:wrap;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.user-input-box lable{
+    width: 95%;
+    color:rgb(92, 64, 170);
+    font-size: 30px;
+    margin: 5px 0;
+   
+}
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 8%;
+    padding: 0;
+}
+.form-submit{
+    margin-top: 40px;
+
+}
+
+.form-submit input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    color: blueviolet;
+}
 
 
 
