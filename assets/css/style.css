@@ -103,6 +103,56 @@ header{
     border-radius: 15px;
 }
 
+/*-----------------Recipe Page------------------*/
+
+
+.cakes{
+    margin:40px;
+}
+.cakes-img{
+    
+    display: block;
+}
+.r-name{
+    padding: 7px;
+    text-align: center;
+}
+.r-name h3{
+    font-size: 25px;
+    
+}
+.r-name a{
+    text-align: center;
+    
+}
+.recipe-btn{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 15px;
+    padding: 3px;
+    display: block;
+    width: 150px;
+    margin: 5px;
+    background-color: rgb(238, 139, 139);
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------------Sign Up Page------------------*/
 
 .sign{
