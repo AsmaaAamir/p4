@@ -10,7 +10,10 @@
 body{
     min-height: 100vh; 
 }
-
+span{
+    font-family: zeyada, sans-serif;
+    font-weight: 600;
+}
 /*-----------------Logo and NavBar ------------------*/
 header{
     position: fixed;
