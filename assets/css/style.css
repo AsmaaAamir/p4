@@ -147,8 +147,46 @@ header{
 
 /*  https://codingyaar.com/bootstrap-carousel-multiple-items-increment-by-1/ */
 
+/*-----------------Login  Page------------------*/
+body{
+    background: url(../images/login-background.jpg) no-repeat;
+    background-size: cover;
+}
+.login-form{
+    width:350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(27, 45, 200);
+}
+.login-form h2{
+    font-size:80px;
+    text-align: center;
+    margin: 40px 0;
+}
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
 
-
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 8px;
+    border: 0;
+}
 
 /*-----------------Sign Up Page------------------*/
 
