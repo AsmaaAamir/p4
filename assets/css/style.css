@@ -104,11 +104,10 @@ header{
 }
 
 /*-----------------Recipe Page------------------*/
-
 .flip-card {
     background-color: transparent;
     float: left;
-    padding: 0 15px;
+    padding: 20px 15px;
     width: 25%;
     height: 300px;
     perspective: 1000px;
@@ -141,8 +140,7 @@ header{
     background-color: #bbb;
     color: black;
 }
-  
-.flip-card-back {
+ .flip-card-back {
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
