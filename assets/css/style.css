@@ -14,6 +14,10 @@ span{
     font-family: zeyada, sans-serif;
     font-weight: 600;
 }
+h1 {
+    text-align: center;
+   
+}
 /*-----------------Logo and NavBar ------------------*/
 header{
     position: fixed;
