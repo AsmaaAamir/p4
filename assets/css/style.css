@@ -107,7 +107,7 @@ header{
 .flip-card {
     background-color: transparent;
     float: left;
-    padding: 20px 15px;
+    padding: 20px;
     width: 25%;
     height: 300px;
     perspective: 1000px;
