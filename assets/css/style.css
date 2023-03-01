@@ -69,7 +69,7 @@ header{
 }
 
 /*-----------------Contact Us Page------------------*/
-.contact{
+#contact{
     padding:40px 15%;
     height: 100%;
     width: 100%;
@@ -78,6 +78,7 @@ header{
     align-items: center;
     grid-gap:20px
 }
+
 .contact-form h1 {
     font-size: 85px;
     font-family: zeyada, sans-serif;
