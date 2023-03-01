@@ -78,16 +78,16 @@ header{
     align-items: center;
     grid-gap:20px
 }
-#contact-form h1 {
+.contact-form h1 {
     font-size: 85px;
     font-family: zeyada, sans-serif;
 }
 
-#contact-form form{ 
+.contact-form form{ 
     position: relative;
 
 }
-#contact-form form input, form textarea{ 
+.contact-form form input, form textarea{ 
     width: 100%;
     padding: 20px;
     border: 2px solid rgb(248, 79, 172);
