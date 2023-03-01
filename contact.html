@@ -1,19 +1,28 @@
 <link rel="stylesheet" href="assets/css/style.css">
-    <section id="contact">
+
+       <div id="contact">
         <div class="contact-form">
             <h1><span>Contact Us.... </span></h1>  
-            <form action=" ">
-                <input type="text" name="firstname" placeholder="First name " required>
+            <form id="myForm">
+                <input type="text" name="firstname" placeholder="First name" required>
                 <input type="text" name="lastname"placeholder="Last name" required>
                 <input type="text" name="email" placeholder="Email address" required>
                 <textarea name="textare" id="text-area" cols="30" rows="10" placeholder="Your Message please"  required></textarea>
-                <input type="submit" name="submit button" value="Submit">
+                <input type="submit" name="submit button" value="Send">
             </form>
         </div>
         <div class="contact-img">
             <img src="assets/images/hero-image-3.jpg">
         </div>
-    </section>
+    </div>
     <script src="assets/js/contactus.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('VdTBCASn-iVtZo3xC');
+    })();
+</script>
 
