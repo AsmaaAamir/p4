@@ -71,15 +71,38 @@ header{
 
 
 .about-me{
+    padding-top: 120px;
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 .hero-img{
     height: 600px;
     width: 100%;
     background: url('../images/hero-img.jpg') no-repeat center center;
-    }
+    background-size:cover;  
+    
+}
+.text {
+    float: right;
+    font-size: 130%;
+    letter-spacing: 4px;
+    width: 500px;
+    height: 400px;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+.text p{
+    color: snow;
+}
+.text h1:hover{
+    color: pink;
+}
+.text p:hover{
+    color: blanchedalmond;
+}
 
 /*----------------Popluar-Recipes-Home-------------*/
 .p-recipes{background-color: transparent;
