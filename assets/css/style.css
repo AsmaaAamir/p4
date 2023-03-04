@@ -114,18 +114,24 @@ header{
 }
 .l-article-img img{
     padding-left: 20px;
-    width:40%;
-    margin-right:5%;
+    width:45%;
     text-align:right;
     float: left;
 }
 .l-article-text{
-    width:55%;
-    margin-left:10%;
+    width: 53%;
     text-align: left;
-    float: left;
+    float: right;
+    padding-right: 20px;
 }
-
+.l-article-text button{
+    padding-left: 3px;
+    border: none;
+    background: none;
+}
+.l-article-text button:hover{
+    background-color: pink;
+}
 
 
 
@@ -339,11 +345,6 @@ body{
     border-radius: 3px;
     color: blueviolet;
 }
-
-
-
-
-
 
 
 
