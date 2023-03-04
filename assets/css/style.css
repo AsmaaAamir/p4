@@ -102,7 +102,7 @@ header{
 }
 /*----------------Latest Article-------------*/
 .l-article h2{
-    float: left;
+    text-align: center;
     font-size: 120px;
     padding-top: 20px;
     padding-left: 20px;
@@ -113,16 +113,18 @@ header{
     color: pink;
 }
 .l-article-img img{
-   padding-left:20px;
-   border-radius: 10%;
-
+    padding-left: 20px;
+    width:40%;
+    margin-right:5%;
+    text-align:right;
+    float: left;
 }
 .l-article-text{
-    float: right;
-    width: 60%;
+    width:55%;
+    margin-left:10%;
+    text-align: left;
+    float: left;
 }
-
-
 
 
 
@@ -228,7 +230,7 @@ perspective: 1000px;
     transform: rotateY(180deg);
   }
 
-/*  https://codingyaar.com/bootstrap-carousel-multiple-items-increment-by-1/ */
+
 
 /*-----------------Login  Page------------------*/
 body{
@@ -351,75 +353,22 @@ body{
 
 
 
+First set the min-height of body to 100vh. ...
+Set the body display to flex display: flex; and flex-direction to column flex-direction: column; .
+Select footer element (of whatever you want to stick to bottom) and set top margin to auto margin-top: auto; 
 
 
 
 
 
-
-
-
-
-.hero-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.hero-row img {
-    width: 100%;
-    height: 500px;
-}
-.hero-row{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 25rem;
-    min-width: 18rem;
-    margin: 10px;
-    text-align: center;
-}
-h1{
-    font-size: 60px;
-    color: rgb(116, 5, 220);
-}
-hr{
-    border: 2px solid rgb(239, 15, 15);
-}
-h2 {
-    text-align: center;
-    font-size: 80px;
-    color: rgb(58, 208, 161);
-}
-h2:hover{
-    color: rgb(211, 141, 37);
-}
-.new p{
-    float: left;
-    width:50%;
-    font-size: 30px;
-}
-.new img{
-    float: right;
-    width: 40%;
-    height: 600px;
-    border-radius: 20%;
-}
-.p-recipes{
-    text-align: center;
-}
-.p-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    grid-gap:1.5rem;
-    align-items: center;
-    }
 
 
 /*------------------Footer------------------*/
 .footer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
     padding: 40px 0;
 }
 .footer h3{
