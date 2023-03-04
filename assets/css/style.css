@@ -67,8 +67,6 @@ header{
     color: blueviolet;
 }
 /*----------------Hero Content-------------*/
-
-
 .about-me{
     padding-top: 120px;
     height: 600px;
@@ -102,6 +100,34 @@ header{
 .text p:hover{
     color: blanchedalmond;
 }
+/*----------------Latest Article-------------*/
+.l-article h2{
+    float: left;
+    font-size: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow:2px -5px 4px;
+}
+.l-article h2:hover{
+    color: pink;
+}
+.l-article-img img{
+   padding-left:20px;
+   border-radius: 10%;
+
+}
+.l-article-text{
+    float: right;
+    width: 60%;
+}
+
+
+
+
+
+
+
 
 /*----------------Popluar-Recipes-Home-------------*/
 .p-recipes{background-color: transparent;
