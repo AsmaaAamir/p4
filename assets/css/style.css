@@ -353,11 +353,6 @@ body{
 
 
 
-First set the min-height of body to 100vh. ...
-Set the body display to flex display: flex; and flex-direction to column flex-direction: column; .
-Select footer element (of whatever you want to stick to bottom) and set top margin to auto margin-top: auto; 
-
-
 
 
 
@@ -365,11 +360,11 @@ Select footer element (of whatever you want to stick to bottom) and set top marg
 
 /*------------------Footer------------------*/
 .footer{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    padding: 40px 0;
+    position: relative;
+    margin-top: -180px;
+    height: 180px;
+    clear: both;
+    background-color:pink;
 }
 .footer h3{
     text-align: center;
