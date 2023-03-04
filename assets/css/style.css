@@ -16,6 +16,8 @@ span{
 }
 h1 {
     text-align: center;
+    color: rgb(13, 215, 148);
+    font-size: 80px;
 }
 /*-----------------Logo and NavBar ------------------*/
 header{
@@ -133,7 +135,9 @@ header{
     background-color: pink;
 }
 
+.gallary{
 
+}
 
 
 
