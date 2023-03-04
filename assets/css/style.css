@@ -67,6 +67,19 @@ header{
 .user a:hover{
     color: blueviolet;
 }
+/*----------------Hero Content-------------*/
+
+
+.about-me{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+.hero-img{
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-img.jpg') no-repeat center center;
+    }
 
 /*----------------Popluar-Recipes-Home-------------*/
 .p-recipes{background-color: transparent;
@@ -171,7 +184,7 @@ perspective: 1000px;
 
 /*-----------------Login  Page------------------*/
 body{
-    background: url(../images/login-background.jpg) no-repeat;
+    background: url(......) no-repeat;
     background-size: cover;
 }
 .login-form{
