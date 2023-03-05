@@ -352,7 +352,6 @@ body{
 
 
 /*------------------Gallary Page------------------*/
-
 .g-container {
     display: flex;
     flex-direction: column;
@@ -386,6 +385,16 @@ body{
     padding-bottom: 15px;
     border-radius: 10px;
 }
+.heart{
+    border: none;
+    background: transparent;
+    font-size: large ;
+    opacity: 0;
+}
+.heart:hover{
+    opacity: 1;
+}
+
 @media only screen and (max-width: 769px){
     .g-container .g-box {
         flex-direction: column;
