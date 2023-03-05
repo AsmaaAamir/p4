@@ -352,6 +352,7 @@ body{
 
 
 /*------------------Gallary Page------------------*/
+
 .g-container {
     display: flex;
     flex-direction: column;
@@ -360,12 +361,50 @@ body{
     text-align: center;
     margin: 40px 20px 0 20px;
 }
+.g-container .g-heading {
+    width: 50%;
+    padding-bottom: 40px;
+}
 .g-heading h2{
     font-size: 50px;
     font-weight: bold;
     border-bottom: 3px solid rgba(117, 221, 221, 1); 
-
 }
+.g-container .g-box {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+}
+.g-container .g-box .g-col{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.g-container .g-box .g-col img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 769px){
+    .g-container .g-box {
+        flex-direction: column;
+    }
+    .g-container .g-box .g-col{
+        width: 100%;
+    }
+ }
+ @media only screen and (max-width: 643px){
+    .g-container .g-heading {
+        width: 100%;
+
+    }
+    .g-heading h2{
+        font-size: 25px;
+  
+    }
+  
+ }
 
 
 
