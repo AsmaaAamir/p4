@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
-/* SCSS RGB */
-$tiffany-blue: rgba(117, 221, 221, 1);
-$non-photo-blue: rgba(132, 199, 208, 1);
-$cool-gray: rgba(146, 151, 196, 1);
-$amethyst: rgba(147, 104, 183, 1);
-$fandango: rgba(170, 62, 152, 1);
+
 *{
     padding: 0;
     margin:0;
@@ -143,9 +138,6 @@ header{
     background-color: pink;
 }
 
-.gallary{
-
-}
 
 
 
@@ -359,8 +351,21 @@ body{
 }
 
 
+/*------------------Gallary Page------------------*/
+.g-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.g-heading h2{
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(117, 221, 221, 1); 
 
-
+}
 
 
 
