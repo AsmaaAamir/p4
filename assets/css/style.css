@@ -243,8 +243,8 @@ perspective: 1000px;
 
 
 /*-----------------Login  Page------------------*/
-body{
-    background: url(......) no-repeat;
+.login{
+    background: url(assets/images/login-pg-bg.jpg) no-repeat;
     background-size: cover;
 }
 .login-form{
@@ -253,7 +253,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    color: rgb(27, 45, 200);
+    color: rgb(170, 62, 152);
 }
 .login-form h2{
     font-size:80px;
@@ -281,6 +281,7 @@ body{
     width: 50%;
     border-radius: 8px;
     border: 0;
+    color: rgb(147, 104, 183);
 }
 
 /*-----------------Sign Up Page------------------*/
