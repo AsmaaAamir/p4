@@ -283,7 +283,9 @@ perspective: 1000px;
     border: 0;
     color: rgb(147, 104, 183);
 }
-
+.login-form p a{
+    text-decoration: none;
+}
 /*-----------------Sign Up Page------------------*/
 
 .sign{
