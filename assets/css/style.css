@@ -244,8 +244,8 @@ perspective: 1000px;
 
 /*-----------------Login  Page------------------*/
 .login{
-    background: url(assets/images/login-pg-bg.jpg) no-repeat;
-    background-size: cover;
+    background: url(assets/images/login-pg-bg.jpg) no-repeat center;
+    background-size: 100% 100%;
 }
 .login-form{
     width:350px;
@@ -287,7 +287,10 @@ perspective: 1000px;
     text-decoration: none;
 }
 /*-----------------Sign Up Page------------------*/
-
+.sign-pg {
+    background: url(assets/images/sign-pg-bg.jpg) no-repeat center; 
+    background-size: 100% 100%;
+}
 .sign{
     display: flex;
     height: 100vh;
