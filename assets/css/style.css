@@ -34,7 +34,6 @@ header{
     padding-top: 15px;
     padding-left: 15px;
     color: gold;
-  
 }
 .logo a {
     display: flex;
@@ -288,7 +287,7 @@ perspective: 1000px;
 }
 /*-----------------Sign Up Page------------------*/
 .sign-pg {
-    background: url(assets/images/sign-pg-bg.jpg) no-repeat center; 
+    background: url(/assets/images/sign-pg-bg.jpg) no-repeat center;
     background-size: 100% 100%;
 }
 .sign{
