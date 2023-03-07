@@ -197,6 +197,9 @@ perspective: 1000px;
 }
 
 /*-----------------Recipe Page------------------*/
+.recipes-pg{
+    background-color: rgb(146, 151, 196);
+}
 .flip-card {
     background-color: transparent;
     float: left;
