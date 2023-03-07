@@ -242,10 +242,11 @@ perspective: 1000px;
 
 
 /*-----------------Login  Page------------------*/
-.login{
-    background: url(assets/images/login-pg-bg.jpg) no-repeat center;
+.login-pg{
+    background: url(../images/login-pg-bg.jpg) no-repeat center;
     background-size: 100% 100%;
 }
+
 .login-form{
     width:350px;
     top: 50%;
@@ -287,7 +288,7 @@ perspective: 1000px;
 }
 /*-----------------Sign Up Page------------------*/
 .sign-pg {
-    background: url(/assets/images/sign-pg-bg.jpg) no-repeat center;
+    background: url(../images/sign-pg-bg.jpg) no-repeat center;
     background-size: 100% 100%;
 }
 .sign{
@@ -304,11 +305,11 @@ perspective: 1000px;
     padding: 28px;
     margin: 0 28px;
     border-radius: 10px;
-    box-shadow: inset -1px 2px 2px whitesmoke;
+    
 }
 .sign-container h1 {
     font-size: 70px;
-    color:rgb(28, 28, 223);
+    color:rgb(7, 94, 155);
     text-align: center;
     text-shadow: 2px 2px 2px rgb(236, 238, 240);
     padding-bottom: 8px;
@@ -337,14 +338,12 @@ perspective: 1000px;
 .user-input-box input{
     height: 40px;
     width: 95%;
-    border-radius: 8%;
+    
     padding: 0;
 }
 .form-submit{
     margin-top: 40px;
-
 }
-
 .form-submit input{
     display: block;
     width: 100%;
