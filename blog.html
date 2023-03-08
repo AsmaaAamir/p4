@@ -96,18 +96,43 @@
             <img src="assets/images/Cheesecakes2.j.jpg">
         </div>
     </section>
-    <section class="prevsiou-a">
-        <button>
-            Pervious Articles     
-        </button>
-        <div>
-            valatine nacroon 
-        </div>
-        <div>
-            christmas dessert
-        </div>
-        <div>
-            hallwoon cupcake
-        </div>
+    <section >
+        <button onclick="articles()">More Articles </button>
+           <div id="moreArticles">
+            <div>
+            <img src="">
+            <h3>Valebtine's Herat Macaroons</h3>
+           </div>   
+           <div>
+            <img src="">
+            <h3>Yule Log</h3>
+           </div>  <div>
+            <img src="">
+            <h3>Spooky Cupcakes</h3>
+           </div> 
+           </div> 
     </section>
 </body>
+
+
+<style>
+#moreArticles {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+
+</style>
+
+<script>
+    function articles()  {
+      var x = document.getElementById("moreArticles");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
