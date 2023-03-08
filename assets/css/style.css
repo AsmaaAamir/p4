@@ -5,7 +5,6 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
-    font-family: Itim, sans-serif;
 }
 body{
     min-height: 100vh; 
@@ -194,6 +193,74 @@ perspective: 1000px;
     width: 720px;
     height: auto;
     border-radius: 15px;
+}
+
+/*-----------------Blog Page------------------*/
+.l-article hr{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.blog-heading{
+    padding-top: 20px;
+    background: url(./images/cheesecake3.jpg) no-repeat center;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+}
+.blog-heading h1{
+    padding-top: 75px;
+    text-align: center;
+    font-size: 100px;
+}
+.blog-heading p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.cheesecake-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.article-text {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.article-heading{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 23px;
+}
+
+.l-a-recipe{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.recipe-article h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(170, 62, 152);
+}
+.recipe-article h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: rgb(66, 131, 229);
+}
+.recipe-article ol{
+    padding-left: 30px;
+}
+.recipe-article ul{
+    padding-left: 30px;
 }
 
 /*-----------------Recipe Page------------------*/
