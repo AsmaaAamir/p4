@@ -96,34 +96,83 @@
             <img src="assets/images/Cheesecakes2.j.jpg">
         </div>
     </section>
-    <section >
-        <button onclick="articles()">More Articles </button>
+    <section class="artciles-more" >
+        <div class="button-cont"><button onclick="articles()">More Articles </button> </div>
+        
            <div id="moreArticles">
-            <div>
-            <img src="">
-            <h3>Valebtine's Herat Macaroons</h3>
+                <div class="card">
+                    <img src="assets/images//heart-macarons-3-min.jpg" width="auto" height="300px">
+                    <div class="container">
+                    <h3>Valetine's Herat Macaroons</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/yule-log-min.jpg"  width="auto" height="300px" >
+                    <div class="container">
+                    <h3>Yule Log</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/pumpkin-pie.jpg"   width="auto" height="300px">
+                    <div class="container">
+                    <h3>Pumpkin Pie</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/pumpkin-spice-truffles-min.jpg"   width="auto" height="300px">
+                    <div class="container">
+                    <h3>Spooky Cupcakes</h3>
+                    </div>
+                </div>
            </div>   
-           <div>
-            <img src="">
-            <h3>Yule Log</h3>
-           </div>  <div>
-            <img src="">
-            <h3>Spooky Cupcakes</h3>
-           </div> 
-           </div> 
+           <div> 
     </section>
 </body>
 
 
 <style>
-#moreArticles {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-  }
+.button-cont{
+        
+  height: 50px;
+  position: relative;
 
+}
+
+
+.artciles-more button{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 11%;
+    background-color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  float: left;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+   
+}
+#moreArticles{
+    padding: 20px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 30px 16px;
+  text-align: center;
+}
 </style>
 
 <script>
@@ -136,3 +185,5 @@
       }
     }
     </script>
+
+    
