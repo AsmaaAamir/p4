@@ -227,10 +227,10 @@ perspective: 1000px;
 }
 .cheesecake-images3{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
 }
 .article-text {
     padding-top: 30px;
