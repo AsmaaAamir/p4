@@ -201,6 +201,13 @@ perspective: 1000px;
     margin: 0 auto;
    
 }
+.blog-macaroon-heading{
+    padding-top: 20px;
+    background: url(../images/heart_macarons-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+}
 .blog-heading{
     padding-top: 20px;
     background: url(../images/cheesecake3.jpg) no-repeat center;
